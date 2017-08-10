@@ -1,0 +1,14 @@
+server:
+    port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.81.146:3306/leejh_test3
+    username: leejh
+    password: leejh2017
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+
+
